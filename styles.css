@@ -162,6 +162,31 @@ h1 {
   display: block;
 }
 
+.return-rules {
+  margin: 54px 0;
+}
+
+.return-rules li {
+  display: flex;
+  font-size: 21px;
+  font-weight: 800;
+  padding: 25px;
+  border: 1px solid #d7d0d0;
+  padding-left: 50px;
+}
+
+.numbers {
+  font-size: 50px;
+  color: #d2c6c6;
+  font-family: "Roboto", sans-serif;
+  margin-right: 26px;
+}
+
+.fa-solid {
+  margin-left: auto;
+  font-weight: 800;
+}
+
 .footer {
   padding: 20px 0;
   display: flex;
