@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.header,
+.content {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.content {
+  margin-top: 27px;
+}
+
+.content h2,
+.content p,
+.shipping-list li:not(table) {
+  margin-bottom: 25px;
+}
+
+.shipping-list li:not(table) {
+  list-style: inside;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.container .lang img {
+  display: inline-block;
+  width: 33px;
+  height: 30px;
+}
+
+li.lang {
+  color: #666666;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 18px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.lang span {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container a {
+  font-size: 18px;
+  color: #666666;
+}
+
+.primary-nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+h1 {
+  font-family: Inter, serif;
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.secondary-nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.secondary-nav ul li {
+  padding: 23px;
+  background-color: #f9f1f1;
+  width: 248px;
+  text-align: center;
+}
+
+.secondary-nav ul li:first-child {
+  background: #f27a1a;
+}
+
+.section img {
+  width: 100vw;
+  height: 400px;
+}
+
+.content table td {
+  padding: 10px 0 10px 20px;
+  width: 50%;
+}
+
+.content table {
+  font-size: 14px;
+  width: 900px;
+  margin-top: 60px;
+  margin: 60px auto 40px auto;
+}
+
+.content tr {
+  border: 1px solid black;
+}
+
+.content td:nth-child(2) {
+  border: 1px solid black;
+}
+
+.content table {
+  border-collapse: collapse;
+  background-color: #f9f9f9;
+}
+
+.flags {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.eu-flag {
+  object-fit: cover;
+}
+
+.flags-items {
+  display: flex;
+  gap: 30px;
+  padding-left: 20px;
+  align-items: center;
+  font-weight: 600;
+  position: relative;
+}
+
+.delivery ul {
+  display: flex;
+  gap: 5px;
+  list-style: disc;
+}
+
+.flags-items span:last-of-type {
+  font-size: 12px;
+  color: #494949;
+  font-weight: normal;
+  display: block;
+}
+
+.footer {
+  padding: 20px 0;
+  display: flex;
+  font-size: 18px;
+  font-weight: 800;
+  margin: auto;
+  justify-content: center;
+}
